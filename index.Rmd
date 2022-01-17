@@ -77,7 +77,14 @@ knitr::include_app("https://bentrueman.shinyapps.io/shinypbcusol/",
 
 ## {.tabset}
 
-### App
+### Dashboard
+
+```{r, echo =FALSE, out.width = "125%"}
+knitr::include_app("https://cwrs.shinyapps.io/WWTFOptimizationv2/",
+  height = "1000px")
+```
+
+### Quick View
 ```{r,echo = FALSE, out.width="100%"}
 knitr::include_app("https://cwrs.shinyapps.io/WWTF_Optimization_Markdown",
   height = "1000px")
