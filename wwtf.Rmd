@@ -1,8 +1,10 @@
 ---
 title: "WWTF Optimization Project"
-author: ""
-date: ""
-output: html_document
+description: | 
+  Scientific and technical writing, native to the web
+output: distill::distill_article
+bibliography: references.bib
+
 ---
 
 ```{r setup, include=FALSE}
@@ -13,13 +15,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p>Once the settling time was up, water was collected from the top of each jar and tested for turbidity, UVT, and TSS. These values were compared with the results yielded by the influent sample by calculating the percent reduction of turbidity and TSS, and the percent increase of UVT. By tracking which combinations of alum and polymer were added to each jar, tracking the treatment performance of each test will allow to find an optimal dosing recipe for a given flow level and influent turbidity level.</p>
 
-<p> Please authenticate below to access a dashboard that displays all of the findings from this project. Or, use the "Quick View" tab to view the optimal dosage for a set of given influent parameters. </p></font>
+@trueman2021new
 
 
 <br><br>
 
 
-## {.tabset}
+
 
 ### Dashboard
 
@@ -28,16 +30,3 @@ knitr::include_app("https://cwrs.shinyapps.io/WWTFOptimizationv2/",
   height = "1000px")
 ```
 
-### Quick View
-```{r,echo = FALSE, out.width="100%", fig.cap= "Link to Live Site: https://cwrs.shinyapps.io/WWTF_Optimization_Markdown" }
-knitr::include_app("https://cwrs.shinyapps.io/WWTF_Optimization_Markdown",
-  height = "1000px")
-```
-
-### About
-
-This dashboard was built by Reilly Pickard under the direction and supervision of Lindsay Anderson & Sydney Lowe <br>
-
-References:
-
-Other Info: 
