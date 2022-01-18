@@ -1,7 +1,12 @@
 ---
 title: "WWTF Optimization Project"
 description: | 
-  Scientific and technical writing, native to the web
+  An easily navigable web application that summarizes the opitmization of a chemical treatment facility   
+date: January 18, 2022
+author:
+  - name: Sydney Lowe
+    url: https://cwrs.shinyapps.io/WWTFOptimizationv2/
+citation_url: https://cwrs.shinyapps.io/WWTFOptimizationv2/
 bibliography: references.bib
 ---
 
@@ -13,18 +18,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p>Once the settling time was up, water was collected from the top of each jar and tested for turbidity, UVT, and TSS. These values were compared with the results yielded by the influent sample by calculating the percent reduction of turbidity and TSS, and the percent increase of UVT. By tracking which combinations of alum and polymer were added to each jar, tracking the treatment performance of each test will allow to find an optimal dosing recipe for a given flow level and influent turbidity level.</p>
 
-@trueman2021new
+The Web application was created using RsHiny (@shiny) and graphics were created using ggplot2 (@ggplot2) and plotly packages (@plotly).  
 
 
-<br><br>
+```{r, echo =FALSE, layout= "l-body-outset", fig.cap = "Link to Live Site:  https://cwrs.shinyapps.io/WWTFOptimizationv2/" }
 
-
-
-
-### Dashboard
-
-```{r, echo =FALSE, out.width = "125%", fig.cap = "Link to Live Site: https://cwrs.shinyapps.io/WWTFOptimizationv2/" }
 knitr::include_app("https://cwrs.shinyapps.io/WWTFOptimizationv2/",
   height = "1000px")
+
 ```
 

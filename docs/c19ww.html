@@ -85,28 +85,65 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+<style>
+  div.csl-bib-body { }
+  div.csl-entry {
+    clear: both;
+    }
+  .hanging div.csl-entry {
+    margin-left:2em;
+    text-indent:-2em;
+  }
+  div.csl-left-margin {
+    min-width:2em;
+    float:left;
+  }
+  div.csl-right-inline {
+    margin-left:2em;
+    padding-left:1em;
+  }
+  div.csl-indent {
+    margin-left: 2em;
+  }
+</style>
 
   <!--radix_placeholder_meta_tags-->
   <title>CWRS Data Hub: Covid-19 Wastewater Research</title>
 
+  <meta property="description" itemprop="description" content="Web application using wastewater data to show Nova Scotia Covid-19 trends."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-01-18"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-01-18"/>
+  <meta name="article:author" content="Graham Gagnon"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="CWRS Data Hub: Covid-19 Wastewater Research"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Web application using wastewater data to show Nova Scotia Covid-19 trends."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="CWRS Data Hub"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="CWRS Data Hub: Covid-19 Wastewater Research"/>
+  <meta property="twitter:description" content="Web application using wastewater data to show Nova Scotia Covid-19 trends."/>
 
+  <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+  <meta name="citation_title" content="CWRS Data Hub: Covid-19 Wastewater Research"/>
+  <meta name="citation_fulltext_html_url" content="https://cwrs.shinyapps.io/public_dashboard/"/>
+  <meta name="citation_online_date" content="2022/01/18"/>
+  <meta name="citation_publication_date" content="2022/01/18"/>
+  <meta name="citation_author" content="Graham Gagnon"/>
   <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Shiny: Web application framework for r;citation_publication_date=2021;citation_author=Winston Chang;citation_author=Joe Cheng;citation_author=JJ Allaire;citation_author=Carson Sievert;citation_author=Barret Schloerke;citation_author=Yihui Xie;citation_author=Jeff Allen;citation_author=Jonathan McPherson;citation_author=Alan Dipert;citation_author=Barbara Borges"/>
+  <meta name="citation_reference" content="citation_title=Interactive web-based data visualization with r, plotly, and shiny;citation_publication_date=2020;citation_publisher=Chapman; Hall/CRC;citation_author=Carson Sievert"/>
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Covid-19 Wastewater Research"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","author","citation_url","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Covid-19 Wastewater Research"]},{"type":"character","attributes":{},"value":["Web application using wastewater data to show Nova Scotia Covid-19 trends.\n"]},{"type":"character","attributes":{},"value":["January 18, 2022"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Graham Gagnon"]},{"type":"character","attributes":{},"value":["https://cwrs.shinyapps.io/public_dashboard/"]}]}]},{"type":"character","attributes":{},"value":["https://cwrs.shinyapps.io/public_dashboard/"]},{"type":"character","attributes":{},"value":["references.bib"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2054,7 +2091,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Covid-19 Wastewater Research","authors":[]}
+{"title":"Covid-19 Wastewater Research","description":"Web application using wastewater data to show Nova Scotia Covid-19 trends.","authors":[{"author":"Graham Gagnon","authorURL":"https://cwrs.shinyapps.io/public_dashboard/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-01-18T00:00:00.000-04:00","citationText":"Gagnon, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2082,15 +2119,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Covid-19 Wastewater Research</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Web application using wastewater data to show Nova Scotia Covid-19 trends.</p></p>
 </div>
 
+<div class="d-byline">
+  Graham Gagnon <a href="https://cwrs.shinyapps.io/public_dashboard/" class="uri">https://cwrs.shinyapps.io/public_dashboard/</a> 
+  
+<br/>January 18, 2022
+</div>
 
 <div class="d-article">
-<p>Brief summary and introduction to dashboard <br><br><br><br><br><br><br></p>
-<div class="layout-chunk" data-layout="l-body">
+<p>Brief summary and introduction to dashboard.</p>
+<p>The Web application was created using RShiny (<span class="citation" data-cites="shiny"><a href="#ref-shiny" role="doc-biblioref">Chang et al.</a> (<a href="#ref-shiny" role="doc-biblioref">2021</a>)</span>) and graphics were created using the plotly package (<span class="citation" data-cites="plotly"><a href="#ref-plotly" role="doc-biblioref">Sievert</a> (<a href="#ref-plotly" role="doc-biblioref">2020</a>)</span>).<br />
+<br></p>
+<div class="layout-chunk" data-layout="l-page-outset">
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<iframe src="https://cwrs.shinyapps.io/public_dashboard/?showcase=0" width="100%" height="600px" data-external="1">
+<iframe src="https://cwrs.shinyapps.io/public_dashboard/?showcase=0" width="624" height="600px" data-external="1">
 </iframe>
 <p class="caption">
 Figure 1: Link to Live Site: <a href="https://cwrs.shinyapps.io/public_dashboard/" class="uri">https://cwrs.shinyapps.io/public_dashboard/</a>
@@ -2098,6 +2142,14 @@ Figure 1: Link to Live Site: <a href="https://cwrs.shinyapps.io/public_dashboard
 </div>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-shiny" class="csl-entry" role="doc-biblioentry">
+Chang, Winston, Joe Cheng, JJ Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Jeff Allen, Jonathan McPherson, Alan Dipert, and Barbara Borges. 2021. <em>Shiny: Web Application Framework for r</em>. <a href="https://CRAN.R-project.org/package=shiny">https://CRAN.R-project.org/package=shiny</a>.
+</div>
+<div id="ref-plotly" class="csl-entry" role="doc-biblioentry">
+Sievert, Carson. 2020. <em>Interactive Web-Based Data Visualization with r, Plotly, and Shiny</em>. Chapman; Hall/CRC. <a href="https://plotly-r.com">https://plotly-r.com</a>.
+</div>
+</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2109,7 +2161,20 @@ Figure 1: Link to Live Site: <a href="https://cwrs.shinyapps.io/public_dashboard
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+<h3 id="citation">Citation</h3>
+<p>For attribution, please cite this work as</p>
+<pre class="citation-appendix short">Gagnon (2022, Jan. 18). CWRS Data Hub: Covid-19 Wastewater Research. Retrieved from https://cwrs.shinyapps.io/public_dashboard/</pre>
+<p>BibTeX citation</p>
+<pre class="citation-appendix long">@misc{gagnon2022covid-19,
+  author = {Gagnon, Graham},
+  title = {CWRS Data Hub: Covid-19 Wastewater Research},
+  url = {https://cwrs.shinyapps.io/public_dashboard/},
+  year = {2022}
+}</pre>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->
