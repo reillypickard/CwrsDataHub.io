@@ -1,5 +1,6 @@
 ---
 title: "Lead Release Control"
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <p>  This model can be seen below and a link to the live site is given </p></font>
 
 
-
+@trueman2021new
 
 ### Model
 ```{r, echo= FALSE, out.width="100%", fig.cap= "Link to Live Site: https://bentrueman.shinyapps.io/shinypbcusol/"  }
