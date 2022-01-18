@@ -1,19 +1,21 @@
-name: cwrs-data-hub
-output_dir: docs
+name: "cwrs.github.io"
+title: "CWRS Data Hub"
+description: |
+  CWRS Data Hub
+output_dir: "docs"
 navbar:
-  title: CWRS Data Hub
   left:
-  - text: Home
-    href: index.html
-  - text: Covid-19 Wastewater Research
-    href: c19ww.html
-  - text: Lead Release Control 
-    href: LRC.html
-  - text: WWTF Optimization Project
-    href: wwtf.html
-  - text: Examples
-    href: example.html
-output:
-  html_document:
-    theme: cerulean
-      
+    - text: "Home"
+      href: index.html
+    - text: "Covid-19 Wastewater Research"
+      href: c19ww.html
+    - text: "Lead Release Control" 
+      href: LRC.html
+    - text: "WWTF Optimization Project"
+      href: wwtf.html
+    - text: "Examples"
+      href: example.html
+output: distill::distill_article
+
+
+

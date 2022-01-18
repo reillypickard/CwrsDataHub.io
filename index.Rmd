@@ -1,9 +1,8 @@
 ---
-title: "CWRS Project Datahub"
-author: "Contact: water@dal.ca"
-date: " "
-output: html_document
-runtime: shiny
+title: "CWRS Data Hub"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
@@ -40,13 +39,7 @@ knitr::include_graphics("water-studies.png")
 ```
 
 
-
-
-
-
-
-
-
+ 
 
 
 

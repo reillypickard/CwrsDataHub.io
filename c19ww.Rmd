@@ -1,7 +1,5 @@
 ---
 title: "Covid-19 Wastewater Research"
-author: ""
-date: ""
 output: html_document
 ---
 
