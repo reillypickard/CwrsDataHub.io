@@ -33,7 +33,7 @@ library(bslib)
 library(lubridate)
 ```
 
-This website serves as a hub that displays current CWRS research projects. Please select the Projects tab and click on the project you would like to view. 
+This website serves as a hub that displays current CWRS research projects. Please select the project you would like to view. 
 
 ```{r img-with-knitr, echo=FALSE, fig.align='center', out.width='100%'}
 knitr::include_graphics("water-studies.png")

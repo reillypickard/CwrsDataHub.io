@@ -5,16 +5,14 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: Projects
-    menu:
-    - text: Covid-19 Wastewater Research
-      href: C19ww.html
-    - text: Lead Release Control 
-      href: LRC.html
-    - text: WWTF Optimization Project
-      href: WWTF.html
-    - text: Examples
-      href: example.html
+  - text: Covid-19 Wastewater Research
+    href: c19ww.html
+  - text: Lead Release Control 
+    href: LRC.html
+  - text: WWTF Optimization Project
+    href: wwtf.html
+  - text: Examples
+    href: example.html
 output:
   html_document:
     theme: cerulean
