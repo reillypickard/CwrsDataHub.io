@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Contact: water@dal.ca" />
 
 
-<title>CWRS Project Datahub</title>
+<title>WWTF Optimization Project</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -274,18 +273,56 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="section-header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">CWRS Project Datahub</h1>
-<h4 class="author">Contact: <a href="mailto:water@dal.ca" class="email">water@dal.ca</a></h4>
+<h1 class="title toc-ignore">WWTF Optimization Project</h1>
+<h4 class="author"></h4>
 
 </div>
 
 
-<p>This website serves as a hub that displays current CWRS research projects. Please select the Projects tab and click on the project you would like to view.</p>
-<p><img src="water-studies.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<font>Over the past year, samples of influent water have been collected and jar tested for turbidity, UVT, and TSS. Once the influent sample was tested for the variables mentioned above, the influent water was poored in to one of 6 jars. Each jar was treated with a different combination of alum and polymer doses. Each jar was mixed at 250RPM with just alum at, before adding the polymer dose and mixing at 120RPM. After the polymer was mixed, the jars were left to settle to let the polymer induced flocs sink to the bottom. The alum mix time, polymer mixtime, and settle time were all determined corresponding to one of 5 flow levels. The flow levels, in m3/hr, were 1500, 2000, 2400, 3105, and 3991.
+</p>
+<p>
+Once the settling time was up, water was collected from the top of each jar and tested for turbidity, UVT, and TSS. These values were compared with the results yielded by the influent sample by calculating the percent reduction of turbidity and TSS, and the percent increase of UVT. By tracking which combinations of alum and polymer were added to each jar, tracking the treatment performance of each test will allow to find an optimal dosing recipe for a given flow level and influent turbidity level.
+</p>
+<p>
+Please authenticate below to access a dashboard that displays all of the findings from this project. Or, use the “Quick View” tab to view the optimal dosage for a set of given influent parameters.
+</p>
+<p></font></p>
+<p><br><br></p>
+<div id="section" class="section level2 tabset">
+<h2 class="tabset"></h2>
+<div id="dashboard" class="section level3">
+<h3>Dashboard</h3>
+<div class="figure">
+<iframe src="https://cwrs.shinyapps.io/WWTFOptimizationv2/?showcase=0" width="125%" height="1000px" data-external="1">
+</iframe>
+<p class="caption">
+Link to Live Site: <a href="https://cwrs.shinyapps.io/WWTFOptimizationv2/" class="uri">https://cwrs.shinyapps.io/WWTFOptimizationv2/</a>
+</p>
+</div>
+</div>
+<div id="quick-view" class="section level3">
+<h3>Quick View</h3>
+<div class="figure">
+<iframe src="https://cwrs.shinyapps.io/WWTF_Optimization_Markdown?showcase=0" width="100%" height="1000px" data-external="1">
+</iframe>
+<p class="caption">
+Link to Live Site: <a href="https://cwrs.shinyapps.io/WWTF_Optimization_Markdown" class="uri">https://cwrs.shinyapps.io/WWTF_Optimization_Markdown</a>
+</p>
+</div>
+</div>
+<div id="about" class="section level3">
+<h3>About</h3>
+<p>This dashboard was built by Reilly Pickard under the direction and supervision of Lindsay Anderson &amp; Sydney Lowe <br></p>
+<p>References:</p>
+<p>Other Info:</p>
+</div>
+</div>
 
 
 
@@ -309,7 +346,7 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function () {
-  window.buildTabsets("section-TOC");
+  window.buildTabsets("TOC");
 });
 
 $(document).ready(function () {

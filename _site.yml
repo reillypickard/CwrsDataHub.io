@@ -1,15 +1,21 @@
-name: "cwrs-data-website"
+name: cwrs-data-hub
 output_dir: docs
 navbar:
-  title: "Current CWRS Projects"
+  title: CWRS Data Hub
   left:
-    - text: "Home"
-      href: index.html
-  right: 
-    - icon: fa-envelope fa-lg
-      href: mailto:<water@dal.ca>
-    - icon: fa-github fa-lg
-      href: http://github.com/reillypickard/
+  - text: Home
+    href: index.html
+  - text: Projects
+    menu:
+    - text: Covid-19 Wastewater Research
+      href: C19ww.html
+    - text: Lead Release Control 
+      href: LRC.html
+    - text: WWTF Optimization Project
+      href: WWTF.html
+    - text: Examples
+      href: example.html
 output:
   html_document:
     theme: cerulean
+      

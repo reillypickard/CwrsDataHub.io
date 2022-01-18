@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Contact: water@dal.ca" />
 
 
-<title>CWRS Project Datahub</title>
+<title>Lead Release Control</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -274,18 +273,49 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="section-header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">CWRS Project Datahub</h1>
-<h4 class="author">Contact: <a href="mailto:water@dal.ca" class="email">water@dal.ca</a></h4>
+<h1 class="title toc-ignore">Lead Release Control</h1>
+<h4 class="author"></h4>
 
 </div>
 
 
-<p>This website serves as a hub that displays current CWRS research projects. Please select the Projects tab and click on the project you would like to view.</p>
-<p><img src="water-studies.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<font>This model generates lead solubility predictions using the LEADSOL (Schock et al. 1996) and minteq.v4 (Charlton and Parkhurst, 2011; Parkhurst and Appelo, 2013) databases. Lead binding to humic substances is modeled using an approximation to the Windermere Humic Aqueous Model (Tipping and Hurley, 1992; see pbcusol::eq_sol_wham()). Lead concentration is shown as a function of stagnation time inside a lead pipe using a model described by Kuch and Wagner (1983).
+</p>
+<p>
+This model can be seen below and a link to the live site is given
+</p>
+<p></font></p>
+<div id="section" class="section level2 tabset">
+<h2 class="tabset"></h2>
+<div id="model" class="section level3">
+<h3>Model</h3>
+<div class="figure">
+<iframe src="https://bentrueman.shinyapps.io/shinypbcusol/?showcase=0" width="100%" height="1000px" data-external="1">
+</iframe>
+<p class="caption">
+Link to Live Site: <a href="https://bentrueman.shinyapps.io/shinypbcusol/" class="uri">https://bentrueman.shinyapps.io/shinypbcusol/</a>
+</p>
+</div>
+</div>
+<div id="about" class="section level3">
+<h3>About</h3>
+<p>Author: Ben Trueman</p>
+<p>References:</p>
+<p>Chang, W., J. Cheng, J.J. Allaire, C. Sievert, B. Schloerke, Y. Xie, J. Allen, J. McPherson, A. Dipert and B. Borges. 2021. shiny: Web Application Framework for R. R package version 1.6.0. <a href="https://CRAN.R-project.org/package=shiny" class="uri">https://CRAN.R-project.org/package=shiny</a></p>
+<p>Charlton, S.R., and D. L. Parkhurst. 2011. Modules based on the geochemical model PHREEQC for use in scripting and programming languages. Computers &amp; Geosciences, v. 37, p. 1653-1663.</p>
+<p>Dunnington, D. 2019. tidyphreeqc: Tidy Geochemical Modeling Using PHREEQC. <a href="https://github.com/paleolimbot/tidyphreeqc" class="uri">https://github.com/paleolimbot/tidyphreeqc</a>.</p>
+<p>Kuch, A., and I. Wagner. 1983. A mass transfer model to describe lead concentrations in drinking water. Water Research, 17(10), 1303-1307. (<a href="http://doi.org/10.1016/0043-1354(83)90256-7" class="uri">http://doi.org/10.1016/0043-1354(83)90256-7</a></p>
+<p>Parkhurst, D. L., and C. A. J. Appelo. 2013. Description of input and examples for PHREEQC version 3–A computer program for speciation, batch- reaction, one-dimensional transport, and inverse geochemical calculations: U.S. Geological Survey Techniques and Methods, book 6, chap. A43, 497 p. <a href="http://pubs.usgs.gov/tm/06/a43" class="uri">http://pubs.usgs.gov/tm/06/a43</a>.</p>
+<p>Schock, M. R., I. Wagner, and R. J. Oliphant. 1996. “Corrosion and solubility of lead in drinking water.” In Internal corrosion of water distribution systems, 2nd ed., p. 131–230. Denver, CO: American Water Works Association Research Foundation.</p>
+<p>Tipping, E., and M. A. Hurley. 1992. A unifying model of cation binding by humic substances. Geochimica et Cosmochimica Acta, v. 56, no. 10, p. 3627-3641.</p>
+<p>Trueman, Benjamin. 2021. pbcusol: Predict Lead and Copper Solubility. R package version 0.0.0.9000. <a href="https://github.com/bentrueman/pbcusol" class="uri">https://github.com/bentrueman/pbcusol</a></p>
+</div>
+</div>
 
 
 
@@ -309,7 +339,7 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function () {
-  window.buildTabsets("section-TOC");
+  window.buildTabsets("TOC");
 });
 
 $(document).ready(function () {
