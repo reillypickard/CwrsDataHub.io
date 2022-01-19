@@ -1,7 +1,7 @@
 ---
 title: "WWTF Optimization Project"
 description: | 
-  An easily navigable web application that summarizes the opitmization of a chemical treatment facility   
+  An easily navigable web application that summarizes the opitmization of a chemical treatment facility.   
 date: January 18, 2022
 author:
   - name: Sydney Lowe
