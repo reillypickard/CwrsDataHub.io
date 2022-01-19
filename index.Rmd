@@ -1,5 +1,5 @@
 ---
-title: "CWRS Project Database"
+title: "CWRS Data Hub"
 description: |
   One Website To Showcase All of Dalhousies CWRS Research Projects. 
 site: distill::distill_website
@@ -37,9 +37,6 @@ library(lubridate)
 
 This website serves as a hub that displays current CWRS research projects. Please select the project you would like to view. The site was created using the rmarkdown (@markdown) and distill (@distill) packages. 
 
-```{r img-with-knitr, echo=FALSE, fig.align='center', out.width='100%'}
-knitr::include_graphics("water-studies.png")
-```
 
 
  

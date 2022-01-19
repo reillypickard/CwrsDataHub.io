@@ -6,6 +6,8 @@ date: January 18, 2022
 author:
   - name: Graham Gagnon
     url: https://cwrs.shinyapps.io/public_dashboard/
+    affiliation: Dalhousie University
+  - name: Bofu Li
 citation_url: https://cwrs.shinyapps.io/public_dashboard/
 bibliography: references.bib
 ---
@@ -20,9 +22,13 @@ The Web application was created using RShiny (@shiny) and graphics were created 
 <br>
 
 
-```{r, echo= FALSE, layout="l-page-outset", fig.cap = "Link to Live Site: https://cwrs.shinyapps.io/public_dashboard/" }
+```{r, echo= FALSE, layout="l-page", fig.cap = "Link to Live Site: https://cwrs.shinyapps.io/public_dashboard/" }
 knitr::include_app("https://cwrs.shinyapps.io/public_dashboard/",
   height = "600px")
 ```
 
 
+
+# Acknowledgments {.appendix}
+
+We'd like to thank the following funding sources for making this work possible: 

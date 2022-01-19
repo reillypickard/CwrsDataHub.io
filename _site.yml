@@ -1,9 +1,14 @@
 name: "cwrs.github.io"
 title: "CWRS Data Hub"
+theme: theme.css
 description: |
   CWRS Data Hub
 output_dir: "docs"
+favicon: water.png
 navbar:
+  logo:
+    image: water-studies.png
+    href: https://reillypickard.github.io/CwrsDataHub.io/
   left:
     - text: "Home"
       href: index.html
@@ -16,6 +21,10 @@ navbar:
     - text: "Examples"
       href: example.html
 output: distill::distill_article
+ 
+    
+   
+
 
 
 
