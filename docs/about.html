@@ -2151,18 +2151,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /*-- ARTICLE METADATA --*/
+
+  d-title{
+    margin-bottom: -20px;
+  }
+
   d-byline {
-    --heading-size:    0.6rem;
+    --heading-size:    20px;
     --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
+    --body-size:       16px;
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+  d-byline{
+    margin-bottom: -100px;
+    border: none;
   }
+
+
+  d-article{
+    margin-bottom: -80px;
+    border: none;
+  }
+  /*-- ARTICLE TABLE OF CONTENTS --*/
 
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
@@ -2415,6 +2426,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="LRC.html">Lead Release Control</a>
 <a href="wwtp.html">WWTF Optimization Project</a>
 <a href="example.html">Examples</a>
+<a href="tut.html">Tutorials</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>

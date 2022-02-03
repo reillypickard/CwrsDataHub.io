@@ -35,15 +35,27 @@ html {
 
 /*-- ARTICLE METADATA --*/
 
-d-
+d-title{
+  margin-bottom: -20px;
+}
 
 d-byline {
-  --heading-size:    18px;
+  --heading-size:    20px;
   --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       13px;
+  --body-size:       16px;
   --body-color:      rgba(0, 0, 0, 0.8);
 }
 
+d-byline{
+  margin-bottom: -100px;
+  border: none;
+}
+
+
+d-article{
+  margin-bottom: -80px;
+  border: none;
+}
 /*-- ARTICLE TABLE OF CONTENTS --*/
 
 /*-- ARTICLE APPENDIX --*/

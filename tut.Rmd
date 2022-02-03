@@ -1,0 +1,17 @@
+---
+title: "Tutorials and Cheatsheets"
+date: "03/02/2022"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r, echo= FALSE, layout="l-page", fig.cap = "https://education.rstudio.com/learn/beginner/" }
+knitr::include_app("https://education.rstudio.com/learn/beginner/",
+  height = "600px")
+```
+
