@@ -1,7 +1,5 @@
 ---
 title: "Tutorials and Cheatsheets"
-date: "03/02/2022"
-output: html_document
 ---
 
 
