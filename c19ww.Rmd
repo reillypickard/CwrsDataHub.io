@@ -1,14 +1,7 @@
 ---
 title: "Covid-19 Wastewater Research"
-description: | 
-  Web application using wastewater data to show Nova Scotia Covid-19 trends.
-date: January 18, 2022
-author:
-  - name: Graham Gagnon
-    url: https://cwrs.shinyapps.io/public_dashboard/
-    affiliation: Dalhousie University
+author: 
   - name: Bofu Li
-citation_url: https://cwrs.shinyapps.io/public_dashboard/
 bibliography: references.bib
 ---
 
@@ -16,15 +9,22 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Brief summary and introduction to dashboard.
+Web application using wastewater data to show Nova Scotia Covid-19 trends.
 
 The Web application was created using RShiny (@shiny) and graphics were created using  the plotly package (@plotly).  
 <br>
 
 
 ```{r, echo= FALSE, layout="l-page", fig.cap = "Link to Live Site: https://cwrs.shinyapps.io/public_dashboard/" }
-knitr::include_app("https://cwrs.shinyapps.io/public_dashboard/",
+knitr::include_app(" https://cwrs.shinyapps.io/public_dashboard/",
   height = "600px")
+```
+
+
+Preview: 
+
+```{r, echo= FALSE}
+knitr::include_graphics("c19ww_preview.png")
 ```
 
 
